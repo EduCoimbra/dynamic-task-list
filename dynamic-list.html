@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="circle.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/dynamic-list.css">
+    <title>Dynamic List</title>
+</head>
+<body>
+    
+    <section>
+        <h1>Dynamic List</h1>
+        
+        <form id="task-form">
+            <input type="text" id="task-input" name="" placeholder="What needs to be done?" required>
+
+            <select id="priority-input">
+
+                <option value="low">
+                    Low Priority
+                </option>
+                <option value="medium">
+                    Medium Priority
+                </option>
+                <option value="high">
+                    High Priority
+                </option>
+
+            </select>
+
+            <button id="form-btn" type="submit">Add Task</button>
+
+        </form>
+    </section>
+
+    <div>
+        <h3>List of your tasks</h3>
+
+        <ol id="task-list">
+            <!-- li's generaded will appear here -->
+        </ol>
+    </div>
+
+    <script src="js/dynamic-list.js"></script>
+</body>
+</html>
