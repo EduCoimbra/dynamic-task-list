@@ -28,7 +28,6 @@ taskForm.addEventListener('submit', function(event){
 
     if(priority === "high"){
         newLi.style.color = "red";
-        newLi.style.fontWeight = "bold";
     } else if (priority === "medium")
         newLi.style.color = "orange";
       else
